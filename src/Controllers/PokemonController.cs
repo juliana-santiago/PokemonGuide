@@ -16,7 +16,7 @@ namespace PokemonGuide.Controllers
         [HttpGet("pokemon/{name}")]
         public async Task<IActionResult> GetPokemonByName(string name)
         {
-            var result = await this._pokemonService.GetPokemonByName(name);
+            var result = await this._pokemonService.GetPokemonByName(name.ToLower());
 
             return this.Ok(result);
         }
