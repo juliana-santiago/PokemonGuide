@@ -1,0 +1,38 @@
+.header {
+  background-color: #ef5350;
+  padding: 20px 0; /* Adds top and bottom padding */
+  text-align: center;
+  width: 100%; /* Ensures it spans the full width of the page */
+}
+
+.pokemon-logo {
+  width: 100%; /* Largura do contêiner */
+  height: 200px; /* Altura do contêiner, ajuste conforme necessário */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  background-image: url('/assets/favicon.png');
+  background-repeat: no-repeat;
+  background-size: contain; /* Mantém o aspecto da imagem */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px; /* Controls the maximum width of the content */
+  margin: 0 auto; /* Centers the container */
+  padding: 0 20px; /* Adds some padding to the sides */
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+h1 {
+  color: #fff;
+  font-size: 2.5rem; /* Increases the font size */
+  margin: 0;
+  font-weight: bold;
+}

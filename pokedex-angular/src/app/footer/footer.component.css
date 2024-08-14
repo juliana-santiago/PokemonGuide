@@ -1,0 +1,13 @@
+footer {
+  position: relative; /* Garante que o footer não seja fixo */
+  width: 100%; /* Faz o footer ocupar toda a largura da tela */
+  background-color: #f1f1f1; /* Exemplo de cor de fundo */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box; /* Inclui o padding dentro da largura */
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}

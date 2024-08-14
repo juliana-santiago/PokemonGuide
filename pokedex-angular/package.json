@@ -1,0 +1,32 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },
+  "dependencies": {
+    "@angular/core": "~18.1.4",
+    "@angular/common": "~18.1.4",
+    "@angular/compiler": "~18.1.4",
+    "@angular/platform-browser": "~18.1.4",
+    "@angular/platform-browser-dynamic": "~18.1.4",
+    "@angular/router": "~18.1.4",
+    "rxjs": "~7.9.0",
+    "zone.js": "~0.12.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "~18.1.4",
+    "@angular/compiler-cli": "~18.1.4",
+    "@angular/language-service": "~18.1.4",
+    "@types/node": "^20.3.1",
+    "typescript": "~5.2.0",
+    "eslint": "^8.48.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0"
+  }
+}

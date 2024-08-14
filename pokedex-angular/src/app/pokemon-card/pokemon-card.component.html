@@ -1,0 +1,13 @@
+<div class="pokemon-card">
+  <br />
+  <img [src]="getPokemonImage()" alt="{{ pokemon }}" />
+  <br />
+  <span class="pokemon-number"> {{ pokemonNumber }} </span>
+  <br />
+  <b class="pokemon">{{ capitalizeFirstLetter(pokemon) }}</b>
+  <br />
+  <div class="pokemon-types">
+    <span *ngFor="let type of types" [ngClass]="type">{{ capitalizeFirstLetter(type) }}</span>
+  </div>
+  <br />
+</div>

@@ -1,0 +1,12 @@
+.pokemon-list {
+  gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+main, body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
