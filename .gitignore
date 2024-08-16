@@ -1,0 +1,50 @@
+# .gitignore para projetos Angular e C#
+
+# Ignorar arquivos e pastas do Angular
+pokemon-angular/node_modules/
+pokemon-angular/dist/
+pokemon-angular/out-tsc/
+pokemon-angular/.angular/
+pokemon-angular/.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos e pastas do .NET/C#
+pokemon-api/bin/
+pokemon-api/obj/
+pokemon-api/.vs/
+pokemon-api/*.csproj.user
+pokemon-api/*.csproj.dotSettings
+pokemon-api/*.csproj.nuget.g.props
+pokemon-api/*.csproj.nuget.g.targets
+*.suo
+*.user
+*.userosscache
+*.dotCover
+*.ncrunch*
+*.testsettings
+
+# Pacotes NuGet e arquivos temporários
+*.nupkg
+*.snupkg
+*.nuget/
+*.log
+*.cache
+*.tmp
+
+# Arquivos de ambiente
+*.env
+
+# Ignorar arquivos gerados pelo TypeScript
+*.tsbuildinfo
+
+# Outras pastas e arquivos temporários
+coverage/
+*.db
+*.sqlite
+
+# Ignorar arquivos específicos de build e testes
+*.dll
+*.exe
+*.pdb
