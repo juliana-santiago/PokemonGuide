@@ -1,19 +1,19 @@
 # .gitignore para projetos Angular e C#
 
 # Ignorar arquivos e pastas do Angular
-pokemon-angular/node_modules/
-pokemon-angular/dist/
-pokemon-angular/out-tsc/
-pokemon-angular/.angular/
-pokemon-angular/.npm/
+pokemon-angular/node_modules/*
+pokemon-angular/dist/*
+pokemon-angular/out-tsc/*
+pokemon-angular/.angular/*
+pokemon-angular/.npm/*
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
 # Ignorar arquivos e pastas do .NET/C#
-pokemon-api/bin/
-pokemon-api/obj/
-pokemon-api/.vs/
+pokemon-api/bin/*
+pokemon-api/obj/*
+pokemon-api/.vs/*
 pokemon-api/*.csproj.user
 pokemon-api/*.csproj.dotSettings
 pokemon-api/*.csproj.nuget.g.props
