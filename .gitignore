@@ -2,6 +2,8 @@
 
 # Ignorar arquivos e pastas do Angular
 pokemon-angular/node_modules/*
+pokemon-angular/node_modules/.bin/*
+pokemon-angular/node_modules/@*
 pokemon-angular/dist/*
 pokemon-angular/out-tsc/*
 pokemon-angular/.angular/*
