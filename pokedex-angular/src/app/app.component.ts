@@ -29,7 +29,7 @@ import { FooterComponent } from './components/footer/footer.component';
     PokemonListComponent,
     HeaderComponent,
     FooterComponent,
-    RouterOutlet // Certifique-se de incluir RouterOutlet
+    RouterOutlet 
   ]
 })
 export class AppComponent {
