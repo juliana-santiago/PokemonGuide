@@ -1,0 +1,27 @@
+:host {
+    display: block;
+    height: 100%;
+}
+
+.sidenav {
+    width: 240px;
+    background: url('https://example.com/pokemon-background.jpg') no-repeat center center;
+    background-size: cover;
+    color: #fff;
+}
+
+mat-toolbar {
+    background-color: #ffcb05; /* Pokémon yellow */
+}
+
+.mat-sidenav-content {
+    padding: 16px;
+}
+
+a {
+    color: #fff;
+}
+
+a.mat-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
